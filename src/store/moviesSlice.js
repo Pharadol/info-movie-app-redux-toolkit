@@ -1,4 +1,4 @@
-import { createSlice, current } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   movies: []
@@ -10,7 +10,6 @@ const movieSlice = createSlice({
   reducers: {
     addMovie: (state, action) => {
       state.movies = action.payload
-      console.log(current(state))
     }
   }
 })
