@@ -25,8 +25,7 @@ function Home() {
   }, []);
 
   return (
-    <div>
-      <h3 style={{ margin: "1rem 0" }}>Movies</h3>
+    <div className="home-container">
       <input type="text" placeholder="Search..." />
       <MovieListing />
     </div>
