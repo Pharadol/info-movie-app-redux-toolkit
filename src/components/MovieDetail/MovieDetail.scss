@@ -1,0 +1,33 @@
+.movie-detail-container {
+  background-color: #1a1a1a;
+  margin: 2rem;
+  color: rgb(224, 224, 224);
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  width: fit-content;
+
+  .movie-detail-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    h1 {
+      font-size: 34px;
+    }
+    p {
+      max-width: 500px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .movie-detail-container {
+    flex-direction: column;
+    margin: 3rem 1rem;
+  }
+}
+
+.loading {
+  color: rgb(224, 224, 224);
+  margin: 3rem;
+}
