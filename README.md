@@ -3,7 +3,7 @@
 This is a movie information application built with React and Redux Toolkit. It fetches data from the OMDb API and displays movie details.
 
 ## Demo
-You can see a live demo of the project [here](https://pharadol.github.io/typing-test-game-js/).
+You can see a live demo of the project [here](https://info-movie-app-redux-toolkit.vercel.app).
 
 ![Project Screenshot](https://img5.pic.in.th/file/secure-sv1/info-movie-app-redux-toolkit.png)
 
