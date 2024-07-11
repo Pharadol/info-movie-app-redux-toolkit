@@ -18,7 +18,7 @@ You can see a live demo of the project [here](https://pharadol.github.io/typing-
 ## Tech Stack
  - React.js
  - Redux Toolkit
- - TailwindCSS
+ - SCSS
 
 ## Installation
 
