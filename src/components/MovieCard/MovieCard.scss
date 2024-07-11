@@ -1,11 +1,12 @@
 .card {
-  width: fit-content;
+  // width: fit-content;
   background-color: #272727;
   border-radius: 4px;
   a {
     .card-image {
       width: fit-content;
       overflow: hidden;
+      min-height: 320px;
       img {
         height: 320px;
         width: 216px;

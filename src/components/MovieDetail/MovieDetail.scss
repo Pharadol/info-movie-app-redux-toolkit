@@ -7,6 +7,9 @@
   gap: 1rem;
   width: fit-content;
 
+  .movie-detail-img {
+    min-height: 256px;
+  }
   .movie-detail-info {
     display: flex;
     flex-direction: column;
@@ -24,6 +27,11 @@
   .movie-detail-container {
     flex-direction: column;
     margin: 3rem 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .movie-detail-img {
+    min-height: 455px;
   }
 }
 

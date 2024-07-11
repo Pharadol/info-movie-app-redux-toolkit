@@ -1,16 +1,23 @@
-import './MovieListing.scss'
-import { useSelector } from 'react-redux'
-import MovieCard from '../MovieCard/MovieCard'
+import "./MovieListing.scss";
+import { useSelector } from "react-redux";
+import MovieCard from "../MovieCard/MovieCard";
 
 function MovieListing() {
-  const { movies } = useSelector((state) => state.movies) 
+  const { movies } = useSelector((state) => state.movies);
   return (
-    <div className='movie-container'>
-      {movies && movies.map((movie) => (
-        <MovieCard key={movie.imdbID} movie={movie} />
-      ))}
-    </div>
-  )
+    <>
+      {movies ? (
+        <div className="movie-container">
+          {movies &&
+            movies.map((movie) => (
+              <MovieCard key={movie.imdbID} movie={movie} />
+            ))}
+        </div>
+      ) : (
+        <div className="empty-state-container">No movies found. Please try a different search.</div>
+      )}
+    </>
+  );
 }
 
-export default MovieListing
+export default MovieListing;
